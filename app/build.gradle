@@ -4,5 +4,10 @@ plugins {
 }
 
 android {
-    compileSdk 32
+    compileSdk 34
+    namespace 'com.kandy.codingpractice'
+}
+
+dependencies {
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.1'
 }
